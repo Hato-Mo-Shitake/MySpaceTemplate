@@ -1,0 +1,10 @@
+---
+tags:
+  - Daily
+spending: 
+rank: 
+relatesTo: 
+---
+# Note
+## やったこと
+

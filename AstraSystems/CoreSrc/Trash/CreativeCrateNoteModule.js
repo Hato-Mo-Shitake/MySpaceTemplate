@@ -1,0 +1,33 @@
+class CreativeCrateNoteModule {
+    constructor() {
+        console.log("CreativeCrateNoteModule is instantiated.");
+    }
+
+    /**
+     * 
+     * @param {MyNote} MyNote Class from ./MyNoteModule.js
+     * @param {DataviewInlineApi} dv 
+     * @param {file} file EX: dv.current().file
+     * @param {int} childLimiter 
+     * @param {int} relatedLimiter 
+     * @param {int} hierarchy 
+     * @returns {CreativeCrateNote} instance
+     */
+    createInstance(MyNote, dv, file, childLimiter = 1, relatedLimiter = 1, hierarchy = 1) {
+        const CreativeCrateNote = this.getNoteClass(MyNote);
+        return new CreativeCrateNote(dv, file, childLimiter, relatedLimiter, hierarchy);
+    }
+
+    /**
+     * @extends MyNote from ./MyNoteModule.js
+     * @param {MyNote} MyNote Class
+     * @returns {CreativeCrateNote} class
+     */
+    getNoteClass(MyNote) {
+        return class CreativeCrateNote extends MyNote {
+            constructor(dv, file, childLimiter = 1, relatedLimiter = 1, hierarchy = 1) {
+                super(dv, file, childLimiter, relatedLimiter, hierarchy);
+            }
+        }
+    }
+}

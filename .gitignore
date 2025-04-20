@@ -1,0 +1,17 @@
+# OSごとの不要ファイル
+.DS_Store
+
+# Obsidianのキャッシュファイル
+.obsidian/workspace
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/graph.json
+
+# 一時ファイルやバックアップ
+*.tmp
+*.bak
+*.swp
+
+# トラッシュ
+.trash

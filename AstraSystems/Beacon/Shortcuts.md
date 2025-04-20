@@ -1,0 +1,21 @@
+---
+belongsTo:
+  - "[[🔑Settings]]"
+---
+## Hotkeys
+- Set as heading 1 ( or 2 ... or 6)
+	- Alt + 1 ( or 2 ... or 6)
+- Fold all headings and lists
+	- Alt + Q
+- Unfold all headings and lists
+	- Alt + W
+- Toggle bullet list
+	- Alt + B
+- Add internal link
+	- Alt + K
+- Dataviewの更新
+	- Alt + R
+- テンプレータ起動
+	- Alt + E
+- ノート内検索アンド置換
+	- Ctrl + F

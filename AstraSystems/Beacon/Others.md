@@ -1,0 +1,4 @@
+---
+belongsTo:
+  - "[[🔑Settings]]"
+---

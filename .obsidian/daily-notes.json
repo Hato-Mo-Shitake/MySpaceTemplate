@@ -1,0 +1,6 @@
+{
+  "autorun": false,
+  "folder": "DailyLogs",
+  "template": "AstraSystems/Orbits/Templates/Notes/Daily",
+  "format": "YYYY-MM-DD_ddd"
+}
